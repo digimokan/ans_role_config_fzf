@@ -1,0 +1,7 @@
+- name: "Install the 'fzf' application package"
+  ansible.builtin.package:
+    name: fzf
+    state: present
+  become: true
+  become_user: root
+

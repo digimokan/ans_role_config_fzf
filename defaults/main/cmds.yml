@@ -1,0 +1,3 @@
+# command to execute to run fzf
+fzf_main_cmd: 'fzf'
+
