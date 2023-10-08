@@ -54,7 +54,7 @@ Install and configure the fzf command-line fuzzy finder.
        - name: "Install and configure the fzf command-line fuzzy finder"
          ansible.builtin.include_role:
            name: ans_role_config_fzf
-           public: yes
+           public: true
    ```
 
 ## Role Options
